@@ -58,21 +58,20 @@ function toggleCommentPolicy() {
 
 <!-- Comment Policy Modal -->
 <div id="commentPolicyModal" class="modal">
-  <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
     <h2>Comment Policy</h2>
     <p>We welcome thoughtful discussion and debate. To ensure a positive environment, we ask all users to:</p>
     <ul>
-      <li>Be constructive. Offer meaningful contributions that foster understanding.</li>
-      <li>Be respectful. Value others’ perspectives. Critique ideas, not people.</li>
-      <li>Be mindful. Consider how culture shapes perspectives. Avoid assumptions.</li>
-      <li>Provide context. Explain reasoning and provide sources.</li>
-      <li>Stay on-topic. Keep comments relevant to the conversation.</li>
-      <li>Use clear language. Avoid jargon that may not be universally understood.</li>
-      <li>Maintain privacy. Do not share private details about others.</li>
-<li>No hate speech or bullying. Make everyone feel safe and included.</li>
-</ul>
+      <li><span class="highlight_popup">Be constructive.</span> Offer meaningful contributions that foster understanding.</li>
+      <li><span class="highlight_popup">Be respectful.</span> Value others’ perspectives. Critique ideas, not people.</li>
+      <li><span class="highlight_popup">Be mindful.</span> Consider how culture shapes perspectives. Avoid assumptions.</li>
+    <li><span class="highlight_popup">Provide context.</span> Explain reasoning and provide sources.</li>
+    <li><span class="highlight_popup">Stay on-topic.</span> Keep comments relevant to the conversation.</li>
+    <li><span class="highlight_popup">Use clear language.</span> Avoid jargon that may not be universally understood.</li>
+    <li><span class="highlight_popup">Maintain privacy.</span> Do not share private details about others.</li>
+    <li><span class="highlight_popup">No hate speech or bullying.</span> Make everyone feel safe and included.</li>
+    </ul>
 
   </div>
 </div>

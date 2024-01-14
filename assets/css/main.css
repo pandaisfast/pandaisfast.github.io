@@ -3058,11 +3058,13 @@ screen and (max-height:300px) {
 
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 80%; /* Adjust this to your liking, e.g., 50% */
+  max-width: 600px; /* This will ensure the modal does not exceed 600px */
 }
+
 
 .close {
   color: #aaa;
@@ -3076,4 +3078,12 @@ screen and (max-height:300px) {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.highlight_popup {
+  font-weight: bold;
+  color: #0056b3; /* This is the color, adjust if needed */
+  background-color: #f0f0f0; /* This adds a background color */
+  padding: 3px 6px; /* This adds some padding around the text */
+  border-radius: 4px; /* This rounds the corners of the background */
 }
