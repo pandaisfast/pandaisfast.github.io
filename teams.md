@@ -1,5 +1,7 @@
 ---
 layout: page
+permalink: /teams/index.html
+title: About
 ---
 
 ## About the Creator
