@@ -1,17 +1,7 @@
-# GuangLun means Nimbus in Chinese ✨
+# OpenJobs.Tech
 
-Here is **Hanlin Cai (Lance, 蔡汉霖)**. Here is my personal website. Welcome to fork for free 🥰
+OpenJobs.Tech is a website that aims to help job seekers by providing the latest job listings, career advice and resources. The site was created by Jeremy Gu to support those facing challenging employment situations with the tools needed for their job search.
 
-## Update and News
+© 2024 Jeremy Gu. 
 
-- **May 2023:** **[Jekyll website building tutorial](https://www.bilibili.com/video/BV1ja4y1G7tX/?share_source=copy_web&vd_source=c8936a3bacfd65375f9e88b3bb9a12ba)** have been uploaded to Bilibili (小白建站教程)
-- **Feb. 2023:** If you have any problem, please feel free to contact me - [Online Talk 15mins](https://calendly.com/lancecai/meet-with-lance)
-- **Dec. 2022:** My personal website have been implemented and deployed in [caihanlin.com](https://openjobs.tech)
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=GuangLun2000/GuangLun2000.github.io&type=Date)](https://star-history.com/#GuangLun2000/GuangLun2000.github.io&Date)
-
-## Statement
-
-© 2024 Jeremy Gu. Published with [GitHub Pages](https://pages.github.com/), powered by [Jekyll](https://jekyllrb.com/), based on the [Minimal Mistakes](https://mademistakes.com/) theme and [Jason Ansel's site](https://github.com/jansel/jansel.github.io). Inspired by [Hanlin Cai's site](https://github.com/GuangLun2000/GuangLun2000.github.io).
+Credits: Published with [GitHub Pages](https://pages.github.com/), powered by [Jekyll](https://jekyllrb.com/), based on the [Minimal Mistakes](https://mademistakes.com/) theme and [Jason Ansel's site](https://github.com/jansel/jansel.github.io). Inspired by [Hanlin Cai's site](https://github.com/GuangLun2000/GuangLun2000.github.io).

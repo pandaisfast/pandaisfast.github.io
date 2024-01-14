@@ -1,10 +1,27 @@
 <h6>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}.
   Published with <a href="https://pages.github.com/" rel="nofollow">GitHub Pages</a>,
   powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>,
-  and using the <a href="https://mademistakes.com/" rel="nofollow">Minimal Mistakes</a> theme.
-  Find the source code for this website <a href="https://github.com/GuangLun2000/GuangLun2000.github.io" rel="nofollow">here</a>.
+  and using the <a href="https://mademistakes.com/" rel="nofollow">Minimal Mistakes</a> theme. Many thanks to Hanlin Cai and many other online tutorials.
+  
+  If you like this website, please <a href="{{ site.url }}/comments/#disqus_thread"><u
+    style="color:white; text-decoration-color: blue;">Leave a Comment</u></a>
+  or <u style="color:white; text-decoration-color: blue;">Bookmark This Page</u>.
 </h6>
+
 
 <script id="dsq-count-scr" src="//openjobstech.disqus.com/count.js" async></script>
 
-<a href="{{ site.url }}/blogs/#disqus_thread">Comments</a>
+<script>
+function addBookmark() {
+    if (window.sidebar && window.sidebar.addPanel) { // Mozilla Firefox Bookmark
+        window.sidebar.addPanel(document.title, window.location.href, '');
+    } else if (window.external && ('AddFavorite' in window.external)) { // IE Favorite
+        window.external.AddFavorite(location.href, document.title); 
+    } else if (window.opera && window.print) { // Opera Hotlist
+        this.title = document.title;
+        return true;
+    } else { // Other browsers (mainly webkit - Chrome, Safari)
+        alert('Press ' + (navigator.userAgent.toLowerCase().indexOf('mac') != -1 ? 'Cmd' : 'Ctrl') + ' + D to bookmark this page.');
+    }
+}
+</script>
