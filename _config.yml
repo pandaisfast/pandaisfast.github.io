@@ -29,6 +29,16 @@ links:
   - title: Comments
     url: /comments/
 
+
+# # 404
+# defaults:
+#   - scope:
+#       path: "" # applies to the whole site
+#     values:
+#       layout: default # layout to use
+#       permalink: /404.html # 404 error permalink
+
+
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: America/Los_Angeles
 future: true
@@ -57,7 +67,7 @@ kramdown:
 
 # disqus settings:
 disqus:
-  shortname: lancecai
+  shortname: openjobstech
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]

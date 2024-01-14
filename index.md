@@ -21,3 +21,6 @@ Each job listing on OpenJobs.tech contains a brief analysis. The site also provi
 <div id="time-Seoul">Seoul Time: </div>
 <div id="time-Sydney">Sydney Time: </div>
 <div id="time-NewYork">New York Time: </div>
+
+## Comments
+{% include disqus.html %}
