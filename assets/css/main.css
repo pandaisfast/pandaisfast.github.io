@@ -2027,7 +2027,7 @@ html {
   margin: 0 5px;
 }
 
-.footer-wrap {
+/* .footer-wrap {
   margin: 0 auto;
   width: 100%;
   *zoom: 1;
@@ -2036,6 +2036,14 @@ html {
   padding-top: 2em;
   padding-bottom: 3em;
   background-color: #000000;
+} */
+.footer-wrap {
+  margin: 0 auto; /* Keeps footer centered */
+  width: 100%; /* Full width */
+  clear: both; /* Clear floats */
+  padding-top: 1em; /* Reduced top padding */
+  padding-bottom: 1em; /* Reduced bottom padding */
+  background-color: #000000; /* Footer background color */
 }
 
 .footer-wrap:before,
@@ -2078,11 +2086,9 @@ html {
 }
 
 .footer-wrap footer {
-  display: inline;
-  float: left;
-  width: 83.33333333333334%;
-  margin-left: 8.333333333333334%;
-  margin-right: 8.333333333333334%;
+  display: block; /* Changed from inline to block for better control */
+  margin: 0 auto; /* Center footer content */
+  width: auto; /* Adjusted to auto so it only takes as much space as needed */
 }
 
 .related-articles {
