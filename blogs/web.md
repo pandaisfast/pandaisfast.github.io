@@ -109,15 +109,15 @@ title: web
 <br>接下来，介绍`_config.yml`文件的配置方法，`.yml`是Jekyll静态站点的核心文件，核心的部分如下，其他的内容展示都先不用修改。笔者在`.yml`文件中已经撰写了比较详细的注释，如果还是不太清楚的话，建议`STFW (Search The Friendly Web)`
 
 ```yaml
-title: Hanlin Cai
+title: Jeremy Gu2
 url: https://caihanlin.com
 
 owner: 
-  name: Hanlin Cai
+  name: Jeremy Gu
   avatar: hanlin.jpg (root/image目录下的图片，纠正)
-  email: hanlin.cai@ieee.org
-  github: GuangLun2000（只需要输入用户名即可）
-  linkedin: hanlin-cai-07b53b23b（只需要ID即可）
+  email: jeremygu888@gmail.com
+  github: pandaisfast（只需要输入用户名即可）
+  linkedin: datastrategy（只需要ID即可）
 
 links:
   - title: About Me（可依照个人需求修改，下同）

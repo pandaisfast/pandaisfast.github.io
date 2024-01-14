@@ -1,51 +1,25 @@
 ---
 layout: page
-permalink: /teams/index.html
-title: Teams
 ---
 
-## OpenIoT Team
+## About the Creator
 
-During undergraduate, my two roommates and I co-founded a tech group called **OpenIoT**. With an entrepreneurial spirit in technology, we participated in numerous innovation and entrepreneurship competitions. As of 2023, the OpenIoT team has grown to include 24 official members and has accumulated a total of six national-level competition awards.
+Jeremy is currently the Director of Data Science at Shipt, a subsidiary of Target Corporation, where he oversees Fraud, Risk, Market Optimization, and Geo. He has amassed significant experience in data science; at Uber, he developed an experimentation platform using the multi-armed bandits algorithm and various financial models. He delved into ad personalization and marketing analytics at Amazon and focused on marketing channel optimization at Stitch Fix.
 
-<br>
+## Education
 
-## Team News
+- University of Washington (Seattle), MS in Statistics, 2012-2014
+- University of Minnesota (Twin Cities), BS in Mathematics and in Statistics, 2009-2012
 
-- **Sep 2023：**Our work [Defender](https://fzuiot.site/) has been reported by [Youth of FZU (News)](https://mp.weixin.qq.com/s/MF2NJQtEHsVwsm8Ym-l7Gg).
-- **May 2023：**If you are interested in the IoT, robotics, or AIGC, we welcome you to [join OpenIoT](https://fzuiot.site/english/).
+## Experience
 
-<br>
+- Director of Data Science, Shipt (9/2021 - Present)
+- Data Science Manager of Marketing Channel Optimization, Stitch Fix (12/2019-9/2021)
+- Senior Data Scientist and Tech Lead Manager, Uber (3/2017-12/2019)
+- Data Scientist, Amazon (12/2014 - 2/2017)
 
----
+## Interests
 
-## My Fundings
+Jeremy is part-time Adjunct Professor at the University of San Francisco. He teaches MSDS 682 Data Streaming Processing. 
 
-- Industrial Inspection System based on Intelligent IoT and Bionic Quadruped Robot<br>**Funding $3000** (Grant No. 202310386056)<br>China National Undergraduate Innovation and Entrepreneurship Training Program<br>Project Leader & Student Investigator (2023-2024)<br><br>
-- Community Monitoring System based on Smart IoT and Inspection Vehicle<br>**Funding $1000** (Grant No. 2023080208)<br>National Youth Science Innovation Project Competition Award<br>Project Leader & Student Investigator (2023)<br><br>
-
-<br>
-
----
-
-## Group Photos
-
-<br>
-
-<left>
-  <img src = "https://p.ipic.vip/l97lne.jpg">
-</left>
-
-
-<br>
-
-<div class="third">
-<img src="https://p.ipic.vip/3g1514.jpg">
-<img src="https://p.ipic.vip/9mnzf6.jpg">
-<img src="https://p.ipic.vip/04r3o2.jpg">
-</div>
-
-
-
-
-<br>
+He has actively participated in the American Statistical Association (ASA), serving as Chapter Vice President in San Francisco (2017-2018) and Chapter Representative in Seattle Puget Sound (2015-2017).

@@ -10,7 +10,4 @@ title: Notes
 - Cyber-security
 - Machine Learning
 - Molecular Communication
-
-
-
 <br>
