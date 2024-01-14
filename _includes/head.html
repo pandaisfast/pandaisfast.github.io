@@ -25,7 +25,9 @@
 <meta property="og:site_name" content="{{ site.title }}">
 
 {% if site.google_verify %}<!-- Webmaster Tools verfication -->
-<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+<!-- <meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %} -->
+<meta name="google-site-verification" content="RAAQyrrwCnfZA459boXxQLWTa0f4kvD_Vp-oGyZOV9I" />
+
 {% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
 
 {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
@@ -68,3 +70,4 @@
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/fav.png">
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/fav.png">
+
