@@ -8,6 +8,9 @@ title: Comments
 
 Please leave a message below. Your feedback and discussions are greatly appreciated.
 
+{% include disqus.html %}
+
+<p>Please feel free to <a href="mailto:jeremygu86@gmail.com">email me</a> or filling out <a href="https://forms.gle/NEWFORMID">contact form</a>.</p>
 
 <!-- <button onclick="toggleCommentPolicy()">Comment Policy2</button>
 
@@ -51,7 +54,3 @@ function toggleCommentPolicy() {
 }
 
 </script> -->
-
-{% include disqus.html %}
-
-

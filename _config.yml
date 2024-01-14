@@ -28,15 +28,10 @@ links:
     url: /about/
   - title: Comments
     url: /comments/
+  - title: Contact
+    url: /contact/
 
 
-# # 404
-# defaults:
-#   - scope:
-#       path: "" # applies to the whole site
-#     values:
-#       layout: default # layout to use
-#       permalink: /404.html # 404 error permalink
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
