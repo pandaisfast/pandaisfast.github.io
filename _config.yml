@@ -1,4 +1,4 @@
-title: OPENJOBS.TECH
+title: OpenJobs.Tech
 
 # minimal_mistakes_skin: air
 tagline: Here is personal website of Hanlin Cai. Powered by Jekyll, based on the Minimal Mistakes theme.
@@ -7,8 +7,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
+
 #Comment out url when working locally to resolve base urls correctly
-url: https://caihanlin.com
+url: http://openjobs.tech/
 
 # Owner/author information
 owner:
