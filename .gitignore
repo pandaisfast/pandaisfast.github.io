@@ -1,0 +1,11 @@
+.editorconfig
+.gitattributes
+.github
+/docs
+/test
+CHANGELOG.md
+minimal-mistakes-jekyll.gemspec
+# README.md
+screenshot-layouts.png
+screenshot.png
+/_site
