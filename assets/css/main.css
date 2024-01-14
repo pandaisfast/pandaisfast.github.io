@@ -3087,3 +3087,7 @@ screen and (max-height:300px) {
   padding: 3px 6px; /* This adds some padding around the text */
   border-radius: 4px; /* This rounds the corners of the background */
 }
+
+#spacer {
+  height: 30px;
+}
