@@ -2,7 +2,46 @@
 layout: page
 permalink: /index.html
 title: Mission
+datatable: true
 ---
+
+
+<!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+<!-- DataTables CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+
+<!-- DataTables JS -->
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+
+
+<div class="datatable-begin"></div>
+
+Food    | Description                           | Category | Sample type
+------- | ------------------------------------- | -------- | -----------
+Apples  | A small, somewhat round ...           | Fruit    | Fuji
+Bananas | A long and curved, often-yellow ...   | Fruit    | Snow
+Kiwis   | A small, hairy-skinned sweet ...      | Fruit    | Golden
+Oranges | A spherical, orange-colored sweet ... | Fruit    | Navel
+
+<div class="datatable-end"></div>
+
+ <script>
+  $(document).ready(function(){
+    // This will add an `id` to the first `table` element within your content.
+    var table = $('article table').first();
+    table.attr('id', 'myTable');
+
+    // Now you can initialize DataTables
+    $('#myTable').DataTable({
+      "paging": true,
+      "ordering": true,
+      "info": false
+    });
+  });
+</script>
+
 
 ## Our Mission
 
