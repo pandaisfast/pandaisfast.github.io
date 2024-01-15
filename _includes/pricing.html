@@ -1,0 +1,30 @@
+<!-- _includes/pricing.html -->
+
+<div class="pricing-options" style="text-align: center;">
+    <div class="option" id="monthly" onclick="selectOption('monthly')" style="margin: 10px auto; display: inline-block;">
+        <p><b>Connections</b></p>  
+        <p>Networking</p>
+        <p>Engagement</p>
+        <p>Relationships</p>
+    </div>
+  
+    <div class="option" id="yearly" onclick="selectOption('yearly')" style="margin: 10px auto; display: inline-block;">
+        <p><b>Job-relevancy</b></p>
+        <p>Expertise</p>
+        <p>Competence</p>
+        <p>Adaptability</p>
+    </div>
+</div>
+  
+
+<div class="service-description" id="serviceDescription" style="text-align: center;">
+  <!-- The service description will be updated here -->
+</div>
+  
+<p id="serviceTerms" style="text-align: center;">
+  <!-- The terms of service will be updated here -->
+</p>
+
+<div id="spacer"></div>
+<!-- Load the JavaScript file for pricing -->
+<script src="{{ '/assets/js/pricing.js' | relative_url }}"></script>

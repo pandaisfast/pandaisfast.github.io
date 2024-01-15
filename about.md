@@ -25,3 +25,6 @@ Jeremy is currently the Director of Data Science at Shipt, a subsidiary of Targe
 Jeremy is part-time Adjunct Professor at the University of San Francisco. He teaches MSDS 682 Data Streaming Processing. 
 
 He has actively participated in the American Statistical Association (ASA), serving as Chapter Vice President in San Francisco (2017-2018) and Chapter Representative in Seattle Puget Sound (2015-2017).
+
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+

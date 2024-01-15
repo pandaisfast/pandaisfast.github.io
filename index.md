@@ -4,23 +4,53 @@ permalink: /index.html
 title: Mission
 ---
 
-## OpenJobs.tech
+## Our Mission
 
-OpenJobs.tech is a website that aims to help job seekers by providing the latest job listings, advice and resources, especially those facing challenging employment situations.
+OpenJobs.tech is providing the latest job listings with advice. 
 
-The site compiles and updates new job postings regularly across various industries and locations in Tech. Users can easily search and filter jobs that match their skills and interests.
+We aims to help job seekers especially those facing challenging employment situations.
 
-Each job listing on OpenJobs.tech contains a brief analysis. The site also provides blogs, tips and suggestions to help job seekers tailor their resumes and interview strategies for specific roles.
+<!-- The site compiles and updates new job postings regularly across various industries and locations in Tech. Users can easily search and filter jobs that match their skills and interests.
+
+Each job listing on OpenJobs.tech contains a brief analysis. The site also provides blogs, tips and suggestions to help job seekers tailor their resumes and interview strategies for specific roles. -->
+
+## Strategy
+
+Job-seeking has two key stratigic focuses: 1) to show relevant skills and 2) build connections. Strive for a blend: develop robust skills to excel in roles and nurture connections for career growth.
+
+{% include pricing.html %}
+
 
 ## Global Job Market Times
 
-<div id="time-SanFrancisco">San Francisco Time: </div>
-<div id="time-London">London Time: </div>
-<div id="time-NewDelhi">New Delhi Time: </div>
-<div id="time-Beijing">Beijing Time: </div>
-<div id="time-Seoul">Seoul Time: </div>
-<div id="time-Sydney">Sydney Time: </div>
-<div id="time-NewYork">New York Time: </div>
+(Making sure you have enough sleep.)
+
+<div id="time-SanFrancisco"><b>San Francisco Time:</b></div>
+<div id="time-NewYork"><b>New York Time:</b></div>
+<div id="time-MexicoCity"><b>Mexico City</b> Time: </div>
+<div id="time-Brasilia"><b>Brasília</b> Time: </div>
+<div id="time-London"><b>London Time:</b></div>
+<div id="time-Rome"><b>Rome Time:</b></div>
+<div id="time-Paris"><b>Paris</b> Time: </div>
+<div id="time-Cairo"><b>Cairo</b> Time: </div>
+<div id="time-Nairobi"><b>Nairobi Time:</b></div>
+<div id="time-Pretoria"><b>Pretoria Time:</b></div>
+<div id="time-NewDelhi"><b>New Delhi Time:</b></div>  
+<div id="time-Beijing"><b>Beijing Time:</b></div>
+<div id="time-Taipei"><b>Taipei Time:</b></div>
+<div id="time-Singapore"><b>Singapore</b> Time: </div>
+<div id="time-Seoul"><b>Seoul Time:</b></div>
+<div id="time-Tokyo"><b>Tokyo</b> Time: </div>
+<div id="time-Sydney"><b>Sydney Time:</b></div>
+
+
+
+
+
+
+
+
+
 <div id="spacer"></div>
 
 ## Comments

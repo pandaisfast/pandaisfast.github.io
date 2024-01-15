@@ -2038,12 +2038,18 @@ html {
   background-color: #000000;
 } */
 .footer-wrap {
-  margin: 0 auto; /* Keeps footer centered */
-  width: 100%; /* Full width */
-  clear: both; /* Clear floats */
-  padding-top: 1em; /* Reduced top padding */
-  padding-bottom: -3em; /* Reduced bottom padding */
-  background-color: #000000; /* Footer background color */
+  margin: 0 auto;
+  /* Keeps footer centered */
+  width: 100%;
+  /* Full width */
+  clear: both;
+  /* Clear floats */
+  padding-top: 1em;
+  /* Reduced top padding */
+  padding-bottom: -3em;
+  /* Reduced bottom padding */
+  background-color: #000000;
+  /* Footer background color */
 }
 
 .footer-wrap:before,
@@ -2086,9 +2092,12 @@ html {
 }
 
 .footer-wrap footer {
-  display: block; /* Changed from inline to block for better control */
-  margin: 0 auto; /* Center footer content */
-  width: auto; /* Adjusted to auto so it only takes as much space as needed */
+  display: block;
+  /* Changed from inline to block for better control */
+  margin: 0 auto;
+  /* Center footer content */
+  width: auto;
+  /* Adjusted to auto so it only takes as much space as needed */
 }
 
 .related-articles {
@@ -3030,7 +3039,8 @@ screen and (max-height:300px) {
 
 /* Button Style */
 #commentPolicyBtn {
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
+  /* Green */
   border: none;
   color: white;
   padding: 10px 20px;
@@ -3044,16 +3054,24 @@ screen and (max-height:300px) {
 
 /* Modal styles */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
 }
 
 .modal-content {
@@ -3061,8 +3079,10 @@ screen and (max-height:300px) {
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Adjust this to your liking, e.g., 50% */
-  max-width: 600px; /* This will ensure the modal does not exceed 600px */
+  width: 80%;
+  /* Adjust this to your liking, e.g., 50% */
+  max-width: 600px;
+  /* This will ensure the modal does not exceed 600px */
 }
 
 
@@ -3082,12 +3102,141 @@ screen and (max-height:300px) {
 
 .highlight_popup {
   font-weight: bold;
-  color: #0056b3; /* This is the color, adjust if needed */
-  background-color: #f0f0f0; /* This adds a background color */
-  padding: 3px 6px; /* This adds some padding around the text */
-  border-radius: 4px; /* This rounds the corners of the background */
+  color: #0056b3;
+  /* This is the color, adjust if needed */
+  background-color: #f0f0f0;
+  /* This adds a background color */
+  padding: 3px 6px;
+  /* This adds some padding around the text */
+  border-radius: 4px;
+  /* This rounds the corners of the background */
 }
 
 #spacer {
   height: 30px;
+}
+
+
+/* backup options for two buttons to choose form */
+/* .option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  margin: 2px;
+  padding: 10px; 
+  border: 1px solid #000000;
+  background-color: rgb(156, 244, 194);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+} */
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: rgb(156, 244, 194);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-sizing: border-box; /* Include padding and border in the width and height */
+}
+
+.option p {
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.option p:first-child {
+  flex-grow: 0;
+}
+
+.option p:last-child {
+  flex-grow: 0;
+  margin-bottom: 20px; /* Adjust this value to reduce the distance from the bottom edge */
+}
+
+
+.option-container {
+  text-align: center; /* Centers inline-block elements horizontally */
+}
+
+.option.active {
+  border-color: blue;
+  background-color: rgb(104, 104, 234);
+  border: 2px solid #0a151b;
+  color: white;
+}
+
+.service-description {
+  padding: 8px;
+  color: white;
+  /* border: 1px solid #ccc; */
+  margin-top: 10px;
+  background-color: rgb(14, 99, 145);
+  transition: background-color 0.3s;
+}
+
+#serviceTerms {
+  padding: 2px;
+  color: white;
+  margin-top: 8px;
+  /* border: 1px solid #ccc; */
+  background-color: #1b3d1d;
+}
+
+.pricing-options {
+  text-align: center; /* Aligns inline-block elements in the center */
+  margin: auto; /* Centers the container */
+  max-width: 80%; /* You can adjust this value */
+}
+
+.pricing-options::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+
+}
+
+.option {
+  box-sizing: border-box;
+}
+
+#monthly, #yearly {
+  width: calc(50% - 20px);
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .option {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+  }
+
+  .pricing-options::after {
+    display: none;
+  }
+}
+
+
+
+
+.date-display {
+  font-size: 14px; /* 或者您希望的任何大小 */
 }
