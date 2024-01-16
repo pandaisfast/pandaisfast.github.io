@@ -26,8 +26,6 @@ function selectOption(plan) {
     document.getElementById('serviceTerms').textContent = termsText;
   }
   
-
-
   // Initial setup, default to monthly plan
   document.addEventListener('DOMContentLoaded', function() {
     selectOption('monthly');
