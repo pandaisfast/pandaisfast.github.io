@@ -6,19 +6,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
       'San Francisco': { locale: 'en-US', options: { timeZone: 'America/Los_Angeles' } },
       'London': { locale: 'en-GB', options: { timeZone: 'Europe/London' } },
       'New Delhi': { locale: 'en-IN', options: { timeZone: 'Asia/Kolkata' } },
-      'Beijing': { locale: 'zh-CN', options: { timeZone: 'Asia/Shanghai' } },
-      'Taipei': {  locale: 'zh-TW',  options: { timeZone: 'Asia/Taipei' }},
-      'Seoul': { locale: 'ko-KR', options: { timeZone: 'Asia/Seoul' } },
+      // 'Beijing': { locale: 'zh-CN', options: { timeZone: 'Asia/Shanghai' } },
+      // 'Taipei': {  locale: 'zh-TW',  options: { timeZone: 'Asia/Taipei' }},
+      // 'Seoul': { locale: 'ko-KR', options: { timeZone: 'Asia/Seoul' } },
       'Sydney': { locale: 'en-AU', options: { timeZone: 'Australia/Sydney' } },
       'New York': { locale: 'en-US', options: { timeZone: 'America/New_York' } },
       'Nairobi': { locale: 'en-KE', options: { timeZone: 'Africa/Nairobi' } },
       'Pretoria': { locale: 'en-ZA', options: { timeZone: 'Africa/Johannesburg' } },
-      'Rome': { locale: 'it-IT', options: { timeZone: 'Europe/Rome' } },
-      'Paris': { locale: 'fr-FR', options: { timeZone: 'Europe/Paris' } },
-      'Cairo': { locale: 'ar-EG', options: { timeZone: 'Africa/Cairo' } },
-      'Brasilia': { locale: 'pt-BR', options: { timeZone: 'America/Sao_Paulo' } },
-      'Mexico City': { locale: 'es-MX', options: { timeZone: 'America/Mexico_City' } },
-      'Tokyo': { locale: 'ja-JP', options: { timeZone: 'Asia/Tokyo' } },
+      // 'Rome': { locale: 'it-IT', options: { timeZone: 'Europe/Rome' } },
+      // 'Paris': { locale: 'fr-FR', options: { timeZone: 'Europe/Paris' } },
+      // 'Cairo': { locale: 'ar-EG', options: { timeZone: 'Africa/Cairo' } },
+      // 'Brasilia': { locale: 'pt-BR', options: { timeZone: 'America/Sao_Paulo' } },
+      // 'Mexico City': { locale: 'es-MX', options: { timeZone: 'America/Mexico_City' } },
+      // 'Tokyo': { locale: 'ja-JP', options: { timeZone: 'Asia/Tokyo' } },
       'Singapore': { locale: 'en-SG', options: { timeZone: 'Asia/Singapore' } },
     };
 
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           day: 'numeric',
           hour: 'numeric',
           minute: 'numeric',
-          second: undefined
+          second: 'numeric'
         };
         const cityTime = new Date().toLocaleString(locale, cityTimeOptions);
         const hour = new Date().toLocaleString(locale, { timeZone: options.timeZone, hour: 'numeric', hour12: false });
