@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /comments/index.html
-title: Comments
+title: Q/A & Comments
 ---
 
-## Comments
+## Q/A & Comments
 
-Please leave a message below. Your feedback and discussions are greatly appreciated.
+If you have questions, please leave a message below. Your feedback and discussions are greatly appreciated.
 
 {% include disqus.html %}
 
