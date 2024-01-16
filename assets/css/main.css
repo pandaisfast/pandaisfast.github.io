@@ -294,10 +294,21 @@ html {
   font: normal 112.5%/1.65 serif;
 }
 
+/* General Styles Jeremy Gu 1/15/2024*/
 body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+/* body {
   word-wrap: normal;
   color: #333332;
-}
+} */
+
+/* Header Styles */
+/* h1, h2, h3, h4, h5, h6 {
+  color: #2c3e50;
+  font-weight: 300;
+} */
 
 .tera {
   font-size: 117px;
@@ -1011,7 +1022,7 @@ p code {
 }
 
 /*@media (max-width:767px){.visible-phone{display:inherit !important;} .hidden-phone{display:none !important;} .hidden-desktop{display:inherit !important;} .visible-desktop{display:none !important;}}@media (min-width:768px) and (max-width:979px){.visible-tablet{display:inherit !important;} .hidden-tablet{display:none !important;} .hidden-desktop{display:inherit !important;} .visible-desktop{display:none !important ;}}hr{display:block;margin:1em 0;padding:0;height:1px;border:0;border-top:1px solid #ccc;border-bottom:1px solid #fff;}*/
-/* Update in 28 Aug 2023 by Hanlin */
+/* Update in 28 Aug 2023 by Hanlin; need to have wider Jeremy */
 @media (max-width:1100px) {
   .visible-phone {
     display: inherit !important;
